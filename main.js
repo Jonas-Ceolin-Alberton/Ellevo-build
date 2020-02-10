@@ -897,7 +897,7 @@ module.exports = "\r\n.form {\r\n    display: -webkit-box;\r\n    display: flex;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-card-contato>\n\t<form #form=\"ngForm\" (ngSubmit)=\"salvarContato(contato)\" autocomplete=\"off\" class=\"form\">\n\t\t<mat-form-field>\n\t\t\t<input matInput placeholder=\"Nome\" name=\"nome\" [(ngModel)]=\"contato.nome\" required>\n\t\t</mat-form-field>\n\n\t\t<mat-form-field>\n\t\t\t<input matInput placeholder=\"Email\" name=\"email\" [(ngModel)]=\"contato.email\" required>\n\t\t</mat-form-field>\n\n\t\t<mat-form-field>\n\t\t\t<input matInput placeholder=\"Telefone\" name=\"telefone\" [(ngModel)]=\"contato.telefone\" required>\n\t\t</mat-form-field>\n\n\t\t<button class=\"save-button\" mat-raised-button color=\"primary\" type=\"submit\" [disabled]=\"form.invalid\">Salvar</button>\n\t</form>\n</app-card-contato>"
+module.exports = "<app-card-contato>\r\n\t<form #form=\"ngForm\" (ngSubmit)=\"salvarContato(contato)\" autocomplete=\"off\" class=\"form\">\r\n\t\t<mat-form-field>\r\n\t\t\t<input matInput placeholder=\"Nome\" name=\"nome\" [(ngModel)]=\"contato.nome\" required>\r\n\t\t</mat-form-field>\r\n\r\n\t\t<mat-form-field>\r\n\t\t\t<input matInput placeholder=\"Email\" name=\"email\" [(ngModel)]=\"contato.email\" required>\r\n\t\t</mat-form-field>\r\n\r\n\t\t<mat-form-field>\r\n\t\t\t<input matInput placeholder=\"Telefone\" name=\"telefone\" [(ngModel)]=\"contato.telefone\" required>\r\n\t\t</mat-form-field>\r\n\r\n\t\t<button class=\"save-button\" mat-raised-button color=\"primary\" type=\"submit\" [disabled]=\"form.invalid\">Salvar</button>\r\n\t</form>\r\n</app-card-contato>"
 
 /***/ }),
 
